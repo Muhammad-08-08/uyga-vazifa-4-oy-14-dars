@@ -46,9 +46,7 @@ forma.addEventListener("submit", (e) => {
     delBtn.addEventListener("click", () => {
       fetch(`http://localhost:3000/users/${user.id}`, {
         method: "DELETE",
-      }).then(() => {
-        tr.remove();
-      }).catch((err) => console.error("Xatolik:", err));
+      })
     });
 
     editBtn.addEventListener("click", () => {

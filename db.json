@@ -1,16 +1,28 @@
 {
   "users": [
     {
-      "id": "4",
-      "name": "Alisher",
-      "email": "Alisher.@gmail.com",
+      "id": "1",
+      "name": "Muhammad",
+      "email": "muhammad@.com",
       "password": "123456"
     },
     {
-      "name": "aasdasdasdasd",
-      "email": "asdasdasdasdasdas",
-      "password": "dasdasda",
-      "id": "b74c"
+      "id": "2",
+      "name": "Ali",
+      "email": "ali@.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "name": "Vali",
+      "email": "vali@.com",
+      "password": "123456"
+    },
+    {
+      "id": "4",
+      "name": "Alisher tog'a",
+      "email": "Alishertog'a.@gmail.com",
+      "password": "12345623"
     }
   ]
 }
