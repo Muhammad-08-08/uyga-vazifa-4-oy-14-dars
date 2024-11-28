@@ -46,7 +46,7 @@ forma.addEventListener("submit", (e) => {
     delBtn.addEventListener("click", () => {
       fetch(`http://localhost:3000/users/${user.id}`, {
         method: "DELETE",
-      })
+      });
     });
 
     editBtn.addEventListener("click", () => {
@@ -60,11 +60,13 @@ forma.addEventListener("submit", (e) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ name, email, password }),
-      }).then(() => {
-        td1.textContent = name;
-        td2.textContent = email;
-        td3.textContent = password;
-      }).catch((err) => console.error("Xatolik:", err));
+      })
+        .then(() => {
+          td1.textContent = name;
+          td2.textContent = email;
+          td3.textContent = password;
+        })
+        .catch((err) => console.error("Xatolik:", err));
     });
   });
 })();
